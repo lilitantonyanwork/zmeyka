@@ -18,7 +18,7 @@ function opentab(evt, tabName) {
 
 document.addEventListener('DOMContentLoaded', () => {
     let tabItems = document.querySelectorAll('.tab__link');
-    let btnOrange = document.querySelectorAll('.btn__orange');
+    let btnOrange = document.querySelectorAll('.store__item');
     let modal = document.querySelector('.modal')
     let modalClose = document.querySelector('.btn__close')
     tabItems.forEach(tabItem => {
