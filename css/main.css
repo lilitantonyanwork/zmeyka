@@ -717,3 +717,100 @@ footer{
     line-height: normal;
     margin-bottom: 1.1rem;
 }
+.tasks{
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+}
+.tasks__list{
+    margin-top: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.task__item{
+    gap: 0.3rem;
+    width: 100%;
+}
+.task__info{
+    background: url('../images/task.png') no-repeat center;
+    background-size: 100% 100%;
+    width: calc(100% - 10.1rem);
+    aspect-ratio: 257 / 77;
+    padding: 2.9rem 2.3rem 2.9rem 2rem;
+    min-width: 0;
+}
+.task__info svg{
+    width: 1.4rem;
+    height: auto;
+    flex-shrink: 0;
+}
+.task__text{
+    margin-left: 0.6rem;
+    font-size: 0.8rem;
+    line-height: normal;
+    font-weight: 500;
+    margin-right: 1.7rem;
+    min-width: 0;
+}
+.task__coin{
+    white-space: nowrap;
+    padding-left: 2.1rem;
+    background: url('../images/crystal.svg') no-repeat left center;
+    background-size: 1.7rem 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+    margin-left: auto;
+}
+.task__action{
+    width: 9.8rem;
+    flex-shrink: 0;
+    aspect-ratio: 98 / 77;
+    background: url('../images/task-btn.png') no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn__go{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+    color: #fff;
+    text-shadow: 0 0.2rem 0.07rem rgba(0, 0, 0, 0.65);
+}
+.btn__go.hide{
+    display: none;
+}
+.btn__load{
+    display: none;
+}
+.btn__load.show{
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 166, 0, 0.79);
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    letter-spacing: 0.03rem;
+    gap: 0.2rem;
+}
+.btn__load.show svg{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+.btn__done{
+    display: none;
+}
+.btn__done.show{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.03rem;
+    color: #fff;
+    text-shadow: 0 0.2rem 0.07rem rgba(0, 0, 0, 0.65);
+}
